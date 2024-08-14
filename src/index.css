@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.spinner {
+  @apply border-t-4 border-b-4 border-blue-500 rounded-full w-12 h-12 animate-spin;
+}

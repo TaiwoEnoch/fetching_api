@@ -8,7 +8,7 @@ const RepositoryList = () => {
   const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const reposPerPage = 6; // 3 rows of 3 repos each
+  const reposPerPage = 6;
 
   useEffect(() => {
     const fetchData = async () => {

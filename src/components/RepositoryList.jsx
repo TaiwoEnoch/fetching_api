@@ -20,6 +20,7 @@ const RepositoryList = () => {
         });
         setRepos(response.data);
       } catch (error) {
+        console.error('Error fetching repositories:', error);
         setError('Error fetching repositories');
       } finally {
         setLoading(false);
